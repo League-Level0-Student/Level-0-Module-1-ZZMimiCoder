@@ -1,4 +1,4 @@
-package ifs_ints_and_loops;
+package Ifs_Ints_And_Loops;
 //    Copyright (c) The League of Amazing Programmers 2013-2017
 //    Level 0
 
