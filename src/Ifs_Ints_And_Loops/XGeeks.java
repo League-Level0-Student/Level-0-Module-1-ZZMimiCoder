@@ -1,26 +1,27 @@
 package Ifs_Ints_And_Loops;
-//    Copyright (c) The League of Amazing Programmers 2013-2017
-//    Level 0
-
-
-
-
 import javax.swing.JOptionPane;
-
-/*
-* Everyone has a superpower. Mine is writing recipes. This program will store
-* the superpowers of all the people in the classroom. E.g. When I type "June",
-* your program should say "June's superpower is writing recipes".
-*/
 public class XGeeks {
 public static void main(String[] args) {
-
-		// 1. Save the superpower for each person in a variable.
-
-		// 2. Ask the user to enter a name. Store their answer in a variable.
-
-		// 3. Show the superpower in a pop-up, depending on the name entered. 
-
+	String Bob = "Bob's Superpower Is Flying";
+	String Jim = "Jim's Superpower Is Invisibility";
+	String Zander = "Zander's Superpower Is Healing Quickly";
+	String June = "June's Superpower Is Writing Recipes";
+	String Ethan = "Ethan's Superpower Is Time Travel";
+	String name = JOptionPane.showInputDialog("Enter A Name");
+	if (name.equals("Bob")) {
+		JOptionPane.showMessageDialog(null, Bob);
+	}
+	else if (name.equals("Jim")) {
+		JOptionPane.showMessageDialog(null, Jim);
+	}
+	else if (name.equals("Zander")) {
+		JOptionPane.showMessageDialog(null, Zander);
+	}
+	else if (name.equals("June")) {
+		JOptionPane.showMessageDialog(null, June);
+	}
+	else if (name.equals("Ethan")) {
+		JOptionPane.showMessageDialog(null, Ethan);
+	}
 	}
 }
-
